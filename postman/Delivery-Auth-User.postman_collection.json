@@ -1,0 +1,73 @@
+{
+	"id": "bbba8d5c-670e-2483-9deb-b9c159a0d010",
+	"name": "Delivery-Auth-User",
+	"description": "",
+	"order": [
+		"3c344023-3371-d211-91cf-45a5d4d178c9"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1542300662914,
+	"owner": "34768",
+	"public": false,
+	"requests": [
+		{
+			"id": "3c344023-3371-d211-91cf-45a5d4d178c9",
+			"headers": "Content-Type: application/json\nAuthorization: Basic Y29kZXJlZjokMmEkMTAkcDlQazBmUU5BUVNlc0k0dnV2S0EwT1phbkREMg==\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Authorization",
+					"value": "Basic Y29kZXJlZjokMmEkMTAkcDlQazBmUU5BUVNlc0k0dnV2S0EwT1phbkREMg==",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:9092/oauth/token?grant_type=password&username=admin&password=123456",
+			"queryParams": [
+				{
+					"key": "grant_type",
+					"value": "password",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "username",
+					"value": "admin",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "password",
+					"value": "123456",
+					"equals": true,
+					"description": "",
+					"enabled": true
+				}
+			],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "bbba8d5c-670e-2483-9deb-b9c159a0d010",
+			"data": null,
+			"dataMode": "params",
+			"name": "GetToken",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1542300665876,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		}
+	]
+}
